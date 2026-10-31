@@ -57,7 +57,7 @@ export function GuestHomeScreen({ navigation }: AuthScreenProps<"GuestHome">) {
       >
         {/* Brand */}
         <View style={styles.brandRow}>
-          <Image source={require("../../../assets/appicon.png")} style={styles.icon} />
+          <Image source={require("../../../assets/vendorappicon.png")} style={styles.icon} />
           <View>
             <Text style={[styles.brand, { color: colors.text }]}>KING OF PROPERTIES</Text>
             <Text style={[styles.brandSub, { color: colors.textMuted }]}>Vendor Partner Portal</Text>
